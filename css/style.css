@@ -1,0 +1,142 @@
+
+/**************************************
+General Styling
+**************************************/
+body {
+	color: #878787;
+	background-color: rgb(255,255,255);
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-size: 2.7em;
+}
+
+h1,
+h2 {
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+}
+
+
+
+/**************************************
+Navigation Styling
+**************************************/
+.nav-bar {
+	text-align: center;
+	
+	
+}
+.nav-bar ul{
+	padding: 20px;
+	margin: 0;
+	
+}
+
+.nav-bar ul li{
+	display: inline-block;
+	margin: 0 7px;
+	
+	
+}
+
+a:link{
+	text-decoration: none;
+}
+
+.nav-bar ul li a{
+	background-color: rgba(250,250,250,.3);
+	padding: 10px 10px;
+	color: #878787;
+	font-size: 1.2em;
+	font-weight: 700;
+}
+
+.nav-bar ul li a:hover {
+	border-bottom: 3px solid #666;
+}
+
+.nav-bar ul lia:active {
+	color: red;
+}
+
+.nav-bar ul lia:visited {
+	color: black;
+}
+
+
+
+/**************************************
+Header Styling
+**************************************/
+.main-header {
+	border-bottom: 1px solid #ccc;
+	background:linear-gradient(skyblue, transparent 95%),
+				linear-gradient(to top, #fff 5%, transparent),
+				blue url('../img/murehwa.jpg') no-repeat;
+	padding-bottom: 300px;
+	background-size: cover;
+	margin-bottom: 20px;
+	text-align: center;
+	padding-top: 30px;
+	
+	
+	
+}
+.tag-span {
+	
+	padding: 20px;
+	margin: 20px;
+	font-size: 1.3em;
+	letter-spacing: 0.065em;
+	
+	
+	
+}
+
+
+
+/**************************************
+Main-body Styling
+**************************************/
+.wrapper {
+	background-image: linear-gradient(to top, #fff 5%, transparent),
+						url('../img/back-view.jpg');
+	background-size: cover;
+}
+
+.data {
+	background-color: rgba(250,250,250, .8);
+	width: 50%;
+	margin: 0 auto;
+	padding: 10%;
+}
+
+
+
+/**************************************
+Footer Styling
+**************************************/
+.the-bottom {
+	background-color: #666;
+	text-align: center;
+	color: #fff;
+	padding: 20px 0;
+	font-size: 0.8em;
+	
+	
+}
+
+.the-bottom img{
+	
+	width: 25px;
+	height: 25px;
+	padding: 2px 2px;
+	margin: 0 20px;
+	color: #666;
+	
+}
